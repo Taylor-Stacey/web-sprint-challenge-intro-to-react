@@ -14,21 +14,23 @@ const Character = ({props}) => {
     } = props;
 
     const StyledDiv = styled.div`
-    
+    font-size: 1.1rem;
     `
-    const StyledH2 = styled.h2`
-    
+    const StyledH1 = styled.h1`
+    color: black;
+    text-shadow: 1px 1px 5px skyblue;
     `
     const StyledP = styled.p`
-    
+    font-weight: bold;
+    color: #443e3e;
+    text-shadow: 1px 1px 5px lemonchiffon;
     `
-
 
     return (
         <StyledDiv>
-            <StyledH2>
+            <StyledH1>
                 {name}
-            </StyledH2>
+            </StyledH1>
             <StyledP>
                Birth year: {birth_year}
             </StyledP>
