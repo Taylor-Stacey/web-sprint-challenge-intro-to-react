@@ -46,6 +46,8 @@ const Character = ({props}) => {
             <StyledP>
                Eye Color: {eye_color}
             </StyledP>
+           
+            
         </StyledDiv>
     )
 }

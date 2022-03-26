@@ -79,6 +79,13 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+react can create applications that use html, css, and javaScript in a more streamlined way, example using styled/components to build your html with some css styling 
+
 1. Describe component state.
+component state is used you want to store or change data in a variable 
+
 1. Describe props.
+props = properties of a component, like the argument you pass
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+you could do something like useEffect with an axios call and useState to set the state of variables to some type of data
